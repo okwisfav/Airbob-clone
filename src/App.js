@@ -1,13 +1,12 @@
-
 import Joke from "../src/Joke"
 import JokesData from "./jokesData";
+import Card from "../src/Card";
 function App() {
-  const jokeElements = JokesData.map(joke => {
-    return <Joke setup={joke.setup} punchline={joke.punchline}  />
-  })
+
   return (
     <div>
-        {jokeElements}
+        <Card 
+        />
     </div>
   )
 }
