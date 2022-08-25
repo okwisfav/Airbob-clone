@@ -12,7 +12,7 @@ const Card = () => {
          imgicon={star}
          spanone="5.0"
          spantwo="(6)"
-         spanthree="USA"
+         spanthree="USA" 
          text="Life of a kids"
          spanfour="from $136 / person"
          />
